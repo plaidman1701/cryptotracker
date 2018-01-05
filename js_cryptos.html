@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang=en>
+<head>
+	<meta charset="UTF-8">
+	<title>cryptoTracker</title>
+	<link href="css/reset.css" media="all" rel="stylesheet" />
+	<link href="css/normalize.css" media="all" rel="stylesheet" />
+	<link href="css/skeleton.css" media="all" rel="stylesheet" />
+	<link href="css/basestyle.css" media="all" rel="stylesheet" />
+</head>
+<body>
+	<div class="container"><!-- skeleton container -->
+
+		<div class="row">
+			<div class="twelve columns cryptoCheckboxes">
+				<span>
+					<input name="cryptoList" class="checkboxInput" id="checkboxBTC" type="checkbox" value="BTC" checked="checked" />
+					<label>BTC</label>
+				</span>
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="ETH" />
+					<label>ETH</label>
+				</span>
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="DOGE" />
+					<label>DOGE</label>
+				</span>
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="LTC" />
+					<label>LTC</label>
+				</span>
+			</div><!-- .twelve columns -->
+		</div><!-- .row -->
+
+		<div class="row">
+			<div class="twelve columns cryptoCheckboxes">
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="ZEC" />
+					<label>ZEC</label>
+				</span>
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="DASH" />
+					<label>DASH</label>
+				</span>
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="XRP" />
+					<label>XRP</label>
+				</span>
+				<span>
+					<input name="cryptoList" class="checkboxInput" type="checkbox" value="XMR" />
+					<label>XMR</label>
+				</span>
+			</div><!-- .twelve columns -->
+		</div><!-- .row -->
+
+		<div class="row">
+			<div class="twelve columns currencies">
+				<input name="currencyBasis" type="radio" id="radioCAD" value="CAD" checked="checked" />
+				<label>CAD</label>
+				<input name="currencyBasis" type="radio" value="USD" />
+				<label>USD</label>
+			</div><!-- .twelve columns -->
+		</div><!-- .row -->
+
+		<div class="row">
+			<div class="twelve columns formButtons">
+				<button id="btnSubmitList">submit</button>
+				<button id="btnResetList">reset</button>
+			</div><!-- .twelve columns -->
+		</div><!-- .row -->
+
+		<div id="outputDiv"></div>
+
+	</div><!-- .container -->
+	<script src="scripts/jquery-3.2.1.min.js"></script> <!-- jQuery libary -->
+	<script src="scripts/cryptos.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.cryptoBlock {
+
+	padding: 20px;
+	margin-bottom: 20px;
+
+	box-sizing: border-box;
+
+
+	border-radius: 25px;
+	border: green solid 1px;
+
+}
+
+.formButtons {
+	text-align: center;
+}
+
+.cryptoCheckboxes {
+	text-align: center;
+
+}
+
+.cryptoCheckboxes label {
+	display: inline;
+}
+
+.cryptoCheckboxes span {
+	display: inline-block;
+	width: 15%;
+	min-width: 75px;
+	text-align: left;
+
+}
+
+.currencies {
+	text-align: center;
+}
+
+.currencies label {
+	display: inline;
+}
+
+.cryptoBlockName {
+	font-size: 2em;
+}
+
+.cryptoBlockPrice {
+	font-size: 1.5em;
+}
+
+.cryptoBlockDeets {
+	font-size: 1em;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+p#listHeader {
+	text-align: center;
+}
