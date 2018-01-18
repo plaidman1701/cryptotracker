@@ -30,8 +30,8 @@ function getCryptoData(selectedCryptos, currencyBasis) {
 			outputString = outputString.concat('Last Updated:<br />'+ tempDate.toLocaleTimeString("en-us", dateOptions) + '</p>');
 			outputString = outputString.concat('</div><!-- .six columns -->');
 
-			// for skeleton, 2 cells per row
-			if (i % 2 == 1)
+			// for skeleton, 2 cells per row, AND/OR no more cells to make
+			if ((i % 2 == 1) || (i == selectedCryptos.length - 1))
 			{
 				outputString = outputString.concat('</div><!-- .row -->'); 
 			}
